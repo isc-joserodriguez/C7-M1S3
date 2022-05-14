@@ -1,0 +1,17 @@
+#flex {
+    display: grid;
+    background-color: lime;
+    grid-template-columns: 211.6px 423.2px 100px;
+    grid-template-rows: 1fr 1fr 2fr 10fr;
+    height: 100vh;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+.div {
+    background-color: blue;
+    width: 100px;
+    /* height: 100px; */
+    color: white;
+    font-size: 50px;
+}

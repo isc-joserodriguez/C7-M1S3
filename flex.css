@@ -1,0 +1,29 @@
+#flex {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    height: 100vh;
+    background-color: lime;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.div {
+    background-color: blue;
+    margin: 5px;
+    width: 100px;
+    /* height: 100px; */
+    color: white;
+    font-size: 50px;
+}
+
+.div2{
+    align-self: center;
+    justify-self: end;
+}
+
+.ejemplo{
+    width:100vw;
+    height:100vh;
+}
